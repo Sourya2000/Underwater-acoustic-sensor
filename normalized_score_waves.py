@@ -22,6 +22,9 @@ for i in range(len(methods)):
 
 # Add Acoustic Wave Score
 acoustic_wave_score = scores[2]
+optic_wave_score=scores[0]
+radio_wave_score=scores[1]
+
 
 # Visualization
 fig, ax = plt.subplots(figsize=(8, 5))
@@ -42,3 +45,5 @@ plt.show()
 
 # Print the score for Acoustic Waves
 print(f"Score for Acoustic Waves: {acoustic_wave_score:.2f}")
+print(f"Score for Optic Waves: {optic_wave_score:.2f}")
+print(f"Score for Radio Waves: {radio_wave_score:.2f}")
